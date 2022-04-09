@@ -145,11 +145,16 @@
         // Limit max characters to 30
         if (screenArray.length != 30) {
         
-        // Don't let user append more 0s if first number is 0
-        if (screenArray.indexOf(0) != 0) {
-            // Append number into array
-            screenArray.push(1);
+        // Don't let user append more 0s if first number is 0 and no decimal
+        if (screenArray.indexOf(0) == 0) {
+            if (screenArray.indexOf(".") == 1) {
+                // Append number into array
+                screenArray.push(1);
             }
+        } else {
+        // Append number into array
+        screenArray.push(1);
+        }
         
         // Update screen
         updateScreen(screenArray)
@@ -161,11 +166,16 @@
         // Limit max characters to 30
         if (screenArray.length != 30) {
         
-        // Don't let user append more 0s if first number is 0
-        if (screenArray.indexOf(0) != 0) {
-            // Append number into array
-            screenArray.push(2);
+        // Don't let user append more 0s if first number is 0 and no decimal
+        if (screenArray.indexOf(0) == 0) {
+            if (screenArray.indexOf(".") == 1) {
+                // Append number into array
+                screenArray.push(2);
             }
+        } else {
+        // Append number into array
+        screenArray.push(2);
+        }
         
         // Update screen
         updateScreen(screenArray)
@@ -177,11 +187,16 @@
         // Limit max characters to 30
         if (screenArray.length != 30) {
         
-        // Don't let user append more 0s if first number is 0
-        if (screenArray.indexOf(0) != 0) {
-            // Append number into array
-            screenArray.push(3);
+        // Don't let user append more 0s if first number is 0 and no decimal
+        if (screenArray.indexOf(0) == 0) {
+            if (screenArray.indexOf(".") == 1) {
+                // Append number into array
+                screenArray.push(3);
             }
+        } else {
+        // Append number into array
+        screenArray.push(3);
+        }
         
         // Update screen
         updateScreen(screenArray)
@@ -193,11 +208,16 @@
         // Limit max characters to 30
         if (screenArray.length != 30) {
         
-        // Don't let user append more 0s if first number is 0
-        if (screenArray.indexOf(0) != 0) {
-            // Append number into array
-            screenArray.push(4);
+        // Don't let user append more 0s if first number is 0 and no decimal
+        if (screenArray.indexOf(0) == 0) {
+            if (screenArray.indexOf(".") == 1) {
+                // Append number into array
+                screenArray.push(4);
             }
+        } else {
+        // Append number into array
+        screenArray.push(4);
+        }
         
         // Update screen
         updateScreen(screenArray)
@@ -209,11 +229,16 @@
         // Limit max characters to 30
         if (screenArray.length != 30) {
         
-        // Don't let user append more 0s if first number is 0
-        if (screenArray.indexOf(0) != 0) {
-            // Append number into array
-            screenArray.push(5);
+        // Don't let user append more 0s if first number is 0 and no decimal
+        if (screenArray.indexOf(0) == 0) {
+            if (screenArray.indexOf(".") == 1) {
+                // Append number into array
+                screenArray.push(5);
             }
+        } else {
+        // Append number into array
+        screenArray.push(5);
+        }
         
         // Update screen
         updateScreen(screenArray)
@@ -225,11 +250,16 @@
         // Limit max characters to 30
         if (screenArray.length != 30) {
         
-        // Don't let user append more 0s if first number is 0
-        if (screenArray.indexOf(0) != 0) {
-            // Append number into array
-            screenArray.push(6);
+        // Don't let user append more 0s if first number is 0 and no decimal
+        if (screenArray.indexOf(0) == 0) {
+            if (screenArray.indexOf(".") == 1) {
+                // Append number into array
+                screenArray.push(6);
             }
+        } else {
+        // Append number into array
+        screenArray.push(6);
+        }
         
         // Update screen
         updateScreen(screenArray)
@@ -241,11 +271,16 @@
         // Limit max characters to 30
         if (screenArray.length != 30) {
         
-        // Don't let user append more 0s if first number is 0
-        if (screenArray.indexOf(0) != 0) {
-            // Append number into array
-            screenArray.push(7);
+        // Don't let user append more 0s if first number is 0 and no decimal
+        if (screenArray.indexOf(0) == 0) {
+            if (screenArray.indexOf(".") == 1) {
+                // Append number into array
+                screenArray.push(7);
             }
+        } else {
+        // Append number into array
+        screenArray.push(7);
+        }
         
         // Update screen
         updateScreen(screenArray)
@@ -257,11 +292,16 @@
         // Limit max characters to 30
         if (screenArray.length != 30) {
         
-        // Don't let user append more 0s if first number is 0
-        if (screenArray.indexOf(0) != 0) {
-            // Append number into array
-            screenArray.push(8);
+        // Don't let user append more 0s if first number is 0 and no decimal
+        if (screenArray.indexOf(0) == 0) {
+            if (screenArray.indexOf(".") == 1) {
+                // Append number into array
+                screenArray.push(8);
             }
+        } else {
+        // Append number into array
+        screenArray.push(8);
+        }
         
         // Update screen
         updateScreen(screenArray)
@@ -273,11 +313,16 @@
         // Limit max characters to 30
         if (screenArray.length != 30) {
         
-        // Don't let user append more 0s if first number is 0
-        if (screenArray.indexOf(0) != 0) {
-            // Append number into array
-            screenArray.push(9);
+        // Don't let user append more 0s if first number is 0 and no decimal
+        if (screenArray.indexOf(0) == 0) {
+            if (screenArray.indexOf(".") == 1) {
+                // Append number into array
+                screenArray.push(9);
             }
+        } else {
+        // Append number into array
+        screenArray.push(9);
+        }
         
         // Update screen
         updateScreen(screenArray) 
@@ -289,10 +334,15 @@
         // Limit max characters to 30
         if (screenArray.length != 30) {
         
-        // Don't let user append more 0s if first number is 0
-        if (screenArray.indexOf(0) != 0) {
-            // Append number into array
-            screenArray.push(0);
+        // Don't let user append more 0s if first number is 0 and no decimal
+        if (screenArray.indexOf(0) == 0) {
+            if (screenArray.indexOf(".") == 1) {
+                // Append number into array
+                screenArray.push(0);
+            }
+        } else {
+        // Append number into array
+        screenArray.push(0);
         }
         
         // Update screen
@@ -305,15 +355,20 @@
     dot.addEventListener("click", function(event) {
         // Limit max characters to 30
         if (screenArray.length != 30) {
-        
-        // Don't let user append more 0s if first number is 0
-        if (screenArray.indexOf(0) != 0) {
-            // Append number into array
-            screenArray.push(".");
-        }
-        
-        // Update screen
-        updateScreen(screenArray)
+
+            // Add 0 in front if no 0
+            if (screenArray.length == 0) {
+                screenArray.push(0)
+            }
+
+            // Don't let user append more decimals if there is already a decimal
+            if (screenArray.includes(".") != true) {
+                // Append number into array
+                screenArray.push(".");
+            }
+            
+            // Update screen
+            updateScreen(screenArray)
         };
     });
 
@@ -328,7 +383,7 @@
             return b + a
         } else if (sign == "-") {
             return b - a
-        } else if (sign == "*") {
+        } else if (sign == "x") {
             return b * a
         } else if (sign == "/") {
             return b / a
@@ -348,9 +403,9 @@
             screenArray = Array.from(String(numA))
             output.innerHTML = numA
         } else {
-            // ParseInt numA and numB
-            numA = Number(numA)
-            numB = Number(numB)
+            // ParseFloat numA and numB
+            numA = parseFloat(numA)
+            numB = parseFloat(numB)
 
             // Divided by zero
             if (numA == 0 && sign == "/") {
