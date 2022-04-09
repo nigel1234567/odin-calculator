@@ -12,6 +12,9 @@
     var numA = 0 // Number to be shown on screen
     var numB = 0 // Stored number offscreen
 
+    // Divided by zero
+    const divByZero = "To infinity & beyond!"
+
     // Output on screen
     output = document.getElementById('output')
     operator = document.getElementById('sign')
@@ -334,7 +337,7 @@
 
             // Divided by zero
             if (numA == 0 && sign == "/") {
-                const divByZero = "To infinity & beyond!"
+
                 numA = divByZero
             } else {
 
