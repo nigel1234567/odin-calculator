@@ -300,6 +300,23 @@
         };
     });
 
+    // -- Decimal --
+    const dot = document.getElementById('dot')
+    dot.addEventListener("click", function(event) {
+        // Limit max characters to 30
+        if (screenArray.length != 30) {
+        
+        // Don't let user append more 0s if first number is 0
+        if (screenArray.indexOf(0) != 0) {
+            // Append number into array
+            screenArray.push(".");
+        }
+        
+        // Update screen
+        updateScreen(screenArray)
+        };
+    });
+
     // Equals: Run operate() function
         // After equals button is pressed,   
         // operate() function: Takes numA and numB and run the operator function based on "sign"
@@ -332,8 +349,8 @@
             output.innerHTML = numA
         } else {
             // ParseInt numA and numB
-            numA = parseInt(numA)
-            numB = parseInt(numB)
+            numA = Number(numA)
+            numB = Number(numB)
 
             // Divided by zero
             if (numA == 0 && sign == "/") {
